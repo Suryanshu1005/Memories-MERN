@@ -7,12 +7,14 @@ import memories from './images/memories.png';
 
 const App = () => {
     return (
-         <Container fixed={true}>
+         <><Container fixed={true}>
             <AppBar position="static" color="inherit">
                 <Typography align="center" variant="h2">Shubham</Typography>
-                <img src={memories} ></img>
+                <img src={memories}></img>
             </AppBar>
-        </Container>
+        </Container><Container>
+                <Typography>New message</Typography>
+            </Container></>
 
     );
     }
