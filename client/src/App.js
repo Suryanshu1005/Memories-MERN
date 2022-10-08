@@ -13,7 +13,7 @@ const App = () => {
                 <img src={memories}></img>
             </AppBar>
         </Container><Container>
-                <Typography>New message</Typography>
+                <Typography>New message from suryanshu</Typography>
             </Container></>
 
     );
